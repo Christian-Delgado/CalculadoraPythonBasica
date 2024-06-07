@@ -1,7 +1,9 @@
 #Calculadora desarrollada por Christian Delgado
 
 while True:
-     print("""Opciones
+
+    print("""Bienvenido
+    Opciones
     Ingrese '+' para sumar dos numeros
     Ingrese '-' para restar dos numeros
     Ingrese '*' para multiplicar dos numeros
