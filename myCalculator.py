@@ -1,9 +1,11 @@
 #Calculadora desarrollada por Christian Delgado
 
-while True:
+activa = True
+
+while activa:
 
     print("""Bienvenido
-    Opciones
+    ingrese una de las opciones
     Ingrese '+' para sumar dos numeros
     Ingrese '-' para restar dos numeros
     Ingrese '*' para multiplicar dos numeros
@@ -13,7 +15,7 @@ while True:
     teclado=input(":")
 
     if teclado=="salir" or teclado=="Salir":
-        break
+        activa = False
     elif teclado=="+":
         num1=float(input("Ingrese un numero:"))
         num2=float(input("Ingrese otro numero:"))
