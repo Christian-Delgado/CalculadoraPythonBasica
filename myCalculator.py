@@ -4,7 +4,7 @@ activa = True
 
 while activa:
 
-    print("""Bienvenido
+    print("""Bienvenido señor usuario
     ingrese una de las opciones
     Ingrese '+' para sumar dos numeros
     Ingrese '-' para restar dos numeros
